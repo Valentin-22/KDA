@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+color: white; 
+text-align:center;
+}
+
+
+row {
+  margin-top: 15px; 
+  margin-bottom: 20px;
+  
+ }
+
+#myHeader { margin-bottom: 100px; }
+
+
+
+#c {
+  padding: 10px;
+  
+ }
+
+#d {
+  margin-top: 15px;
+  text-align:center; 
+
+}
+#e {
+  text-align:center; 
+
+}
+#f {
+  text-align:center; 
+  font-size: 12px;
+}
+
+.box-shadow {
+
+        box-shadow: 7px 7px 7px #666666;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+*/
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+header {
+  padding: 10px 16px;
+  background:#2c3e50;
+  color:#fff;
+  position: fixed;
+  line-height: 0;
+  top: 0;
+  width: 100%;
+} 
+
+.main {
+    background:#f2f2f2;
+}
+
+.color1 {
+    background:#34495e;
+    color:#fff;
+}
+body {
+  background-image: url(../images/backg5.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-height:100vh;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+
+}
+
+#xd-footer {
+  padding:  2em 0;;
+  background:#2c3e50;
+  color:#fff;
+  margin-top: 100px;
+
+}
