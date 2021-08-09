@@ -1,50 +1,53 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  src: url('../fonts/icomoon/icomoon.eot?srf3rx');
+  src: url('../fonts/icomoon/icomoon.eot?srf3rx#iefix')
+      format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.ttf?srf3rx') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?srf3rx') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?srf3rx#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 a {
-color: white; 
-text-align:center;
+  color: rgb(82, 51, 221);
+  text-align: center;
 }
-
 
 row {
-  margin-top: 15px; 
-  margin-bottom: 20px;
-  
- }
-
-#myHeader { margin-bottom: 100px; }
-
-
-
-#c {
-  padding: 10px;
-  
- }
-
-#d {
   margin-top: 15px;
-  text-align:center; 
-
+  margin-bottom: 20px;
 }
-#e {
-  text-align:center; 
 
+#myHeader {
+  margin-bottom: 100px;
+}
+
+#margintop {
+  margin-top: 50px;
+  text-align: center;
+}
+#center {
+  text-align: center;
+  padding: 10px;
+}
+#justify {
+  text-align: justify;
+  padding: 10px;
+}
+#right {
+  text-align: right;
+  padding: 10px;
 }
 #f {
-  text-align:center; 
+  text-align: center;
   font-size: 12px;
 }
 
 .box-shadow {
-
-        box-shadow: 7px 7px 7px #666666;
+  box-shadow: 7px 7px 7px #666666;
 }
 
 /* Page content */
@@ -65,7 +68,6 @@ row {
   padding-top: 102px;
 }
 
-
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -74,36 +76,34 @@ html {
 
 header {
   padding: 10px 16px;
-  background:#2c3e50;
-  color:#fff;
+  background: #2c3e50;
+  color: #fff;
   position: fixed;
   line-height: 0;
   top: 0;
   width: 100%;
-} 
+}
 
 .main {
-    background:#f2f2f2;
+  background: #f2f2f2;
 }
 
 .color1 {
-    background:#34495e;
-    color:#fff;
+  background: #34495e;
+  color: #fff;
 }
 body {
   background-image: url(../images/backg5.jpg);
   background-size: cover;
   background-position: center center;
-  min-height:100vh;
-  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
-
 }
 
 #xd-footer {
-  padding:  2em 0;;
-  background:#2c3e50;
-  color:#fff;
+  padding: 2em 0;
+  background: #2c3e50;
+  color: #fff;
   margin-top: 100px;
-
 }
