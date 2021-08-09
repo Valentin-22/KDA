@@ -31,7 +31,12 @@ row {
 }
 #center {
   text-align: center;
+  padding: 20px;
+}
+#par-title {
+  text-align: center;
   padding: 10px;
+  font-size: 25px;
 }
 #justify {
   text-align: justify;
@@ -105,5 +110,5 @@ body {
   padding: 2em 0;
   background: #2c3e50;
   color: #fff;
-  margin-top: 100px;
+  margin-top: 00px;
 }
