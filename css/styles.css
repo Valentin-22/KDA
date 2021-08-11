@@ -54,6 +54,11 @@ row {
   text-align: center;
   font-size: 12px;
 }
+#font20 {
+  font-size: 20px;
+  text-align: justify;
+  padding: 10px;
+}
 
 .box-shadow {
   box-shadow: 7px 7px 7px #666666;
